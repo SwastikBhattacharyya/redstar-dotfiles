@@ -7,3 +7,6 @@ vim.cmd("set shiftwidth=4")
 -- Set mapleader
 vim.g.mapleader = " "
 
+-- Neovide
+vim.g.neovide_transparency = 0.8
+
