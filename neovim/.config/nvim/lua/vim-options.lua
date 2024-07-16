@@ -10,3 +10,6 @@ vim.g.mapleader = " "
 -- Neovide
 vim.g.neovide_transparency = 0.8
 
+-- Keymaps
+vim.keymap.set('n', '<C-v>', '"+p', { remap = true })
+
