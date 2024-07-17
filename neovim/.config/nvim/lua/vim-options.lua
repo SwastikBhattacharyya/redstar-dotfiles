@@ -7,6 +7,11 @@ vim.cmd("set shiftwidth=2")
 -- Line Numbers
 vim.cmd("set relativenumber")
 
+-- Buffers
+vim.keymap.set("n", "H", "<CMD>bprevious<CR>")
+vim.keymap.set("n", "L", "<CMD>bnext<CR>")
+vim.keymap.set("n", "C", "<CMD>bdelete<CR>")
+
 -- Set mapleader
 vim.g.mapleader = " "
 
