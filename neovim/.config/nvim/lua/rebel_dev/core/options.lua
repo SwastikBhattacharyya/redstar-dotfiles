@@ -33,3 +33,7 @@ opt.clipboard:append("unnamedplus") -- use system clipboard as default register
 opt.splitright = true -- split vertical window to the right
 opt.splitbelow = true -- split horizontal window to the bottom
 
+-- neovide
+if vim.g.neovide then
+	vim.g.neovide_transparency = 0.77
+end
