@@ -69,7 +69,6 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
-alias neovide='function _neovide(){ neovide --fork $1; exit; };_neovide'
 
 # Shell integrations
 eval "$(fzf --zsh)"
