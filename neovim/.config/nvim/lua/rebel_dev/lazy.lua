@@ -15,7 +15,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("rebel_dev.plugins", {
+require("lazy").setup({ { import = "rebel_dev.plugins" }, { import = "rebel_dev.plugins.lsp" } }, {
     checker = {
         enabled = true,
         notify = false,
